@@ -48,7 +48,7 @@ const updateexchangerate = async()=>{
 }
 btn.addEventListener('click',async(evt)=>{
     evt.preventDefault();
-    
+    updateexchangerate();
 })
 window.addEventListener('load',()=>{
     updateexchangerate();
